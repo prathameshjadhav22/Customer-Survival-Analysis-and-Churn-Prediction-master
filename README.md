@@ -181,8 +181,8 @@ For the modeling, I use tree-based ensemble methods as we do not have linearity 
 The final model resulted in 0.62 F1 score and 0.85 ROC-AUC. The resulting plots can be seen below.
 
 <p align="center">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/model_1.png" width="600" height="300"/>
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/model_feat_imp.png" width="600" height="400"/>
+<img src="./Images/model_1.png" width="600" height="300" alt="Model Performance"/>
+<img src="./Images/model_feat_imp.png" width="600" height="400" alt="Feature Importance"/>
 </p>
 
 From the feature importance plot, we can see which features govern customer churn.
@@ -194,25 +194,25 @@ We can explain and understand the Random Forest model using explainable AI modul
 1. **Permutation Importance** shows feature importance by randomly shuffling feature values and measuring how much it degrades our performance.
 
 <p align="center">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/eli51.png" height="250" width="200">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/eli52.png" height="130" width="200"> 
+<img src="./Images/eli51.png" height="250" width="200" alt="Permutation Importance 1">
+<img src="./Images/eli52.png" height="130" width="200" alt="Permutation Importance 2"> 
 </p>
 
 2. **Partial Dependence Plot** is used to see how churning probability changes across the range of particular feature. For example, in below graph of tenure group, the churn probability decreases at a higher rate if a person is in tenure group 2 compared to 1.
 
 <p align="center">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/pdp_tenure.png" height="250" width="400">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/pdp_contract.png" height="250" width="400"> 
+<img src="./Images/pdp_tenure.png" height="250" width="400" alt="PDP Tenure">
+<img src="./Images/pdp_contract.png" height="250" width="400" alt="PDP Contract"> 
 </p>
 
 <p align="center">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/pdp_monthly_charges.png" height="250" width="400">
-<img src="https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/pdp_total_charges.png" height="250" width="400"> 
+<img src="./Images/pdp_monthly_charges.png" height="250" width="400" alt="PDP Monthly Charges">
+<img src="./Images/pdp_total_charges.png" height="250" width="400" alt="PDP Total Charges"> 
 </p>
 
 3. **SHAP Values** (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see why a particular customer's churning probability is less than baseline value and which features are contributing to it.
 
-![](https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/Images/shap.png)
+![SHAP Analysis](./Images/shap.png)
 
 ## Flask App
 
