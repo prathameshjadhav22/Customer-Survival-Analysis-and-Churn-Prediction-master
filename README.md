@@ -174,8 +174,8 @@ The project follows a structured approach with clear separation of concerns:
 
 **Prathamesh Jadhav**  
 GitHub: https://github.com/prathameshjadhav22  
-LinkedIn: [Add your LinkedIn profile]  
-Email: [Add your email]
+LinkedIn: https://www.linkedin.com/in/prathamesh-jadhav-b9a6122bb  
+Email: jprathamesh728@gmail.com
 
 ---
 
