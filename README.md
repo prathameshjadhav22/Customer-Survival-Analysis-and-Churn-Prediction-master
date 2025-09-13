@@ -2,7 +2,7 @@
 
 **Author:** Prathamesh Jadhav  
 **GitHub:** https://github.com/prathameshjadhav22  
-**Project Repository:** https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction
+**Project Repository:** https://github.com/prathameshjadhav22/Customer-Survival-Analysis-and-Churn-Prediction-master/tree/main
 
 Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers.
 
